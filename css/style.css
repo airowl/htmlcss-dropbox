@@ -12,7 +12,99 @@ html{
     box-sizing: border-box;
 }
 
+/* GLOBALS */
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem; /* 11px */
+}
+
+.container{
+    width: 75%;
+    min-width: 1200px; /* per screen desktop */
+    max-width: 1600px; /* per screen desktop */
+    margin: 0 auto;
+    background-color: greenyellow;
+    height: 100%;
+}
+
+.hero .container, footer .container{
+    width: 90%;
+    background-color: hotpink;
+    height: 100%;
+}
+
+/* HEADER */
+
+/* HERO */
+
+/* PRICES */
+
+/* CTA */
+
+/* FEATURES */
+
+/* REVIEWS */
+
+/* FAQ */
+
+/* FOOTER */
+
+
+
+
+
+
+/* DA ELIMINARE -->*/
+
+header, main, footer{
+    width: 100%;
+}
+
+header{
+    background-color: bisque;
+    height: 58px;
+}
+
+main{
+    background-color: cadetblue;
+}
+
+main section{
+    background-color: darkkhaki;
+}
+
+main section:nth-child(1){
+    height: 544px;
+    background-color: darkmagenta;
+}
+
+main section:nth-child(2){
+    height: 1102px;
+    background-color: darkolivegreen;
+}
+
+main section:nth-child(3){
+    height: 371px;
+    background-color: rgb(85, 101, 241);
+}
+
+main section:nth-child(4){
+    height: 860px;
+    background-color: rgb(246, 100, 148);
+}
+
+main section:nth-child(5){
+    height: 764px;
+    background-color: rgb(150, 241, 141);
+}
+
+main section:nth-child(6){
+    height: 428px;
+    background-color: rgb(134, 212, 236);
+}
+
+footer{
+    height: 364px;
+    background-color: crimson;
 }
