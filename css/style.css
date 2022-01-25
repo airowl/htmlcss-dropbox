@@ -30,8 +30,22 @@ body{
 
 .hero .container, footer .container{
     width: 90%;
-    background-color: hotpink;
-    height: 100%;
+}
+
+/* FLOAT ELEMENT */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.floats-left{
+    float: left;
+}
+
+.floats-right{
+    float: right;
 }
 
 /* FONTS SIZE*/
@@ -87,8 +101,17 @@ header nav ul li, header nav{
     display: inline-block;
 }
 
-header nav ul li{
+header .nav-left ul li{
     margin-left: 3.4rem;
+}
+
+header .nav-right ul li{
+    margin-right: 3.4rem;
+}
+
+header .floats-right button{
+    padding: 8px 15px;
+    font-size: 1.2rem;
 }
 
 /* HERO */
@@ -141,11 +164,6 @@ section.faq{
 
 header, main, footer{
     width: 100%;
-}
-
-main section:nth-child(1){
-    height: 544px;
-    background-color: darkmagenta;
 }
 
 main section:nth-child(2){
