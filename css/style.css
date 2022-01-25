@@ -16,7 +16,7 @@ html{
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1rem; /* 11px */
+    font-size: 1.2rem; /* 11px */
 }
 
 .container{
@@ -74,8 +74,21 @@ p.p-bold{
 /* HEADER */
 
 header{
-    background-color: bisque;
-    height: 58px;
+    background-color: #fff;
+    line-height: 5rem;
+    padding: 0 1.5rem;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+header nav ul li, header nav{
+    display: inline-block;
+}
+
+header nav ul li{
+    margin-left: 3.4rem;
 }
 
 /* HERO */
