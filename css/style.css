@@ -36,17 +36,49 @@ body{
 
 /* HEADER */
 
+header{
+    background-color: bisque;
+    height: 58px;
+}
+
 /* HERO */
+
+section.hero{
+    margin-bottom: 15.4rem;
+}
 
 /* PRICES */
 
+section.prices{
+    margin-bottom: 10.9rem;
+
+}
+
 /* CTA */
+
+section.cta{
+    margin-bottom: 8.5rem;
+
+}
 
 /* FEATURES */
 
+section.features{
+    margin-bottom: 15.5rem;
+
+}
+
 /* REVIEWS */
 
+section.reviews{
+    margin-bottom: 9.7rem;
+}
+
 /* FAQ */
+
+section.faq{
+    margin-bottom: 9.1rem;
+}
 
 /* FOOTER */
 
@@ -59,19 +91,6 @@ body{
 
 header, main, footer{
     width: 100%;
-}
-
-header{
-    background-color: bisque;
-    height: 58px;
-}
-
-main{
-    background-color: cadetblue;
-}
-
-main section{
-    background-color: darkkhaki;
 }
 
 main section:nth-child(1){
