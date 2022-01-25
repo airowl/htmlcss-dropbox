@@ -20,16 +20,16 @@ body{
 }
 
 .container{
-    width: 75%;
-    min-width: 1200px; /* per screen desktop */
-    max-width: 1600px; /* per screen desktop */
+    width: 70%;
+    min-width: 860px; /* per screen desktop */
+    max-width: 1180px; /* per screen desktop */
     margin: 0 auto;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     height: 100%;
 }
 
 .hero .container, footer .container{
-    width: 90%;
+    width: 80%;
 }
 
 /* FLOAT ELEMENT */
@@ -46,6 +46,16 @@ body{
 
 .floats-right{
     float: right;
+}
+
+/* POSITIONS */
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
 }
 
 /* FONTS SIZE*/
@@ -117,7 +127,33 @@ header .floats-right button{
 /* HERO */
 
 section.hero{
+    background-color: #b4d0e7;
     margin-bottom: 15.4rem;
+    padding: 7.7rem 0;
+}
+
+section.hero h1{
+    margin-bottom: 3.7rem;
+}
+
+section.hero p{
+    width: 29.4rem;
+    margin-bottom: 2.5rem;
+}
+
+section.hero button{
+    margin-bottom: 1rem;
+}
+
+section.hero i.fas{
+    font-size: 3rem;
+    margin-top: 3.4rem;
+}
+
+section.hero img{
+    width: 53.6rem;
+    bottom: -135px;
+    right: 0;
 }
 
 /* PRICES */
