@@ -160,7 +160,6 @@ section.hero img{
 
 section.prices{
     margin-bottom: 10.9rem;
-
 }
 
 /* CTA */
@@ -200,11 +199,6 @@ section.faq{
 
 header, main, footer{
     width: 100%;
-}
-
-main section:nth-child(2){
-    height: 1102px;
-    background-color: darkolivegreen;
 }
 
 main section:nth-child(3){
