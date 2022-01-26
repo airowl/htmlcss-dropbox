@@ -180,16 +180,16 @@ section.prices .plans{
 
 section.prices .plans .plan{
     float: left;
-    width: calc(100% / 3 - 40px); /* PROBLEMINO */
+    width: 30%; /* PROBLEMINO */
     height: 60rem;
     border: 1px solid grey;
 }
 
-section.prices .plans .plan:nth-of-type(2){
-    margin: 0 40px; /* PROBLEMINO */
+section.prices .plans .plan:nth-child(2){
+    margin: 0 5%;
 }
 
-section.prices .plans .plan .plan-title{
+section.prices .plan-title{
     text-align: center;
     border-bottom: 1px solid grey;
     padding: .375rem 0;
