@@ -179,6 +179,7 @@ section.prices input:last-of-type{
 section.prices .plans .plan{
     float: left;
     width: calc(100% / 3 - 4.3rem);
+    height: 78rem;
     margin-top: 3rem;
     border: 1px solid grey;
 }
@@ -195,6 +196,7 @@ section.prices .plans .plan .plan-title{
 
 section.prices .plans .plan .plan-contents{
     margin-top: 2.8rem;
+    padding-left: 2.5rem;
 }
 
 section.prices .plans .plan .plan-contents p.p-bold{
@@ -208,6 +210,20 @@ section.prices .plans .plan .plan-contents .plan-features{
 
 section.prices .plans .plan .plan-contents .plan-features div:nth-child(2){
     margin: 2.5rem 0;
+}
+
+section.prices .plans .plan .plan-contents .plan-cta{
+    margin-top: 3.8rem;
+}
+
+section.prices .plans .plan .plan-contents .plan-cta .plan-cta-link{
+    margin-top: 2.6rem;
+    margin-bottom: 2.2rem;
+}
+
+section.prices .plans .plan .plan-contents .plan-cta hr{
+    width: 15%;
+    color: lightgrey;
 }
 
 section.prices .plans .plan .plan-contents nav ul{
