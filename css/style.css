@@ -2,7 +2,6 @@
 
 html{
     font-size: 100%;
-    min-width: 1180px;
 }
 
 *,
@@ -23,14 +22,12 @@ body{
 .container{
     width: 70%; 
     margin: 0 auto;
-    border: 1px solid red;
     max-width: 65rem;
 }
 
 .lrg-container{
     width: 85%;
     margin: 0 auto;
-    border: 1px solid red;
     max-width: 73.75rem;
 }
 
@@ -177,16 +174,19 @@ section.prices input:last-of-type{
     margin-left: 14px;
 }
 
+section.prices .plans{
+    margin-top: 1.875rem;
+}
+
 section.prices .plans .plan{
     float: left;
-    width: calc(100% / 3 - 43px);
+    width: calc(100% / 3 - 40px); /* PROBLEMINO */
     height: 60rem;
-    margin-top: 1.875rem;
     border: 1px solid grey;
 }
 
-section.prices .plans .plan:not(:last-child){
-    margin-right: 43px;
+section.prices .plans .plan:nth-of-type(2){
+    margin: 0 40px; /* PROBLEMINO */
 }
 
 section.prices .plans .plan .plan-title{
@@ -238,6 +238,10 @@ section.prices .plans .plan .plan-contents nav ul li:not(:last-child){
 
 section.prices .plans .plan .plan-contents nav ul li .fas{
     color: blue;
+}
+
+section.prices .plan-enterprise{
+    border: 1px solid lightgray;
 }
 
 /* CTA */
