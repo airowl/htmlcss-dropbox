@@ -262,11 +262,34 @@ section.prices .plan-enterprise .col-bottom .floats-right{
     width: 30%;
 }
 
-/* CTA */
+/* PARTNER */
 
-section.cta{
+section.partner{
     margin-bottom: 85px;
+}
 
+section.partner .col-1{
+    width: 60%;
+}
+
+section.partner .col-1 img{
+    width: 100%;
+}
+
+section.partner .col-2{
+    width: 40%;
+    padding: 42px;
+}
+
+section.partner .col-2 p{
+    margin-top: 26px;
+    margin-bottom: 22px;
+}
+
+section.partner .col-2 button{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
 }
 
 /* FEATURES */
@@ -298,11 +321,6 @@ section.faq{
 
 header, main, footer{
     width: 100%;
-}
-
-main section:nth-child(3){
-    height: 371px;
-    background-color: rgb(85, 101, 241);
 }
 
 main section:nth-child(4){
