@@ -16,7 +16,7 @@ html{
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem; /* 11px */
+    font-size: 1.2rem; /* 12px */
 }
 
 .container{
@@ -174,10 +174,17 @@ section.prices .plans .plan{
     float: left;
     width: calc(100% / 3 - 4.3rem);
     margin-top: 3rem;
+    border: 1px solid grey;
 }
 
 section.prices .plans .plan:not(:last-child){
     margin-right: 4.3rem;
+}
+
+section.prices .plans .plan .plan-title{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 6px 0;
 }
 
 /* CTA */
