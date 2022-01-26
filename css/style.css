@@ -182,7 +182,7 @@ section.prices .plans .plan{
     float: left;
     width: 30%; /* PROBLEMINO */
     height: 60rem;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
 }
 
 section.prices .plans .plan:nth-child(2){
@@ -191,7 +191,7 @@ section.prices .plans .plan:nth-child(2){
 
 section.prices .plan-title{
     text-align: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgray;
     padding: .375rem 0;
 }
 
@@ -242,6 +242,24 @@ section.prices .plans .plan .plan-contents nav ul li .fas{
 
 section.prices .plan-enterprise{
     border: 1px solid lightgray;
+    margin-top: 36px;
+}
+
+section.prices .plan-enterprise .col-bottom {
+    padding: 21px;
+}
+
+section.prices .plan-enterprise .col-bottom .floats-left{
+    width: 70%;
+}
+
+section.prices .plan-enterprise .col-bottom .floats-left p{
+    margin-top: 16px;
+    margin-bottom: 26px;
+}
+
+section.prices .plan-enterprise .col-bottom .floats-right{
+    width: 30%;
 }
 
 /* CTA */
