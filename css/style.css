@@ -336,6 +336,10 @@ section.reviews{
     margin-bottom: 97px;
 }
 
+section.reviews .reviews-title h2{
+    margin-bottom: 26px;
+}
+
 section.reviews .reviews-cta{
     background-color: #b4d0e7;
 }
