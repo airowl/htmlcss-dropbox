@@ -410,7 +410,28 @@ section.faq h3{
 }
 
 section.faq .row{
-    height: 40px;
+    padding: 28px 0;
+}
+
+section.faq .row .q-a{
+    width: 80%;
+}
+
+section.faq .row .q-a .answer{
+    display: none;
+    padding-top: 20px;
+}
+
+section.faq .row:hover .q-a .answer{
+    display: block;
+}
+
+section.faq .row .arrow-down{
+    width: 5%;
+}
+
+section.faq .row:hover .arrow-down i{
+    transform: rotate(180deg);
 }
 
 
