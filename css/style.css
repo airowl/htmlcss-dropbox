@@ -401,6 +401,20 @@ section.faq{
     margin-bottom: 91px;
 }
 
+section.faq h3, section.faq .row{
+    border-bottom: 1px solid lightgray;
+}
+
+section.faq h3{
+    padding-bottom: 38px;
+}
+
+section.faq .row{
+    height: 40px;
+}
+
+
+
 /* FOOTER */
 
 
@@ -412,11 +426,6 @@ section.faq{
 
 header, main, footer{
     width: 100%;
-}
-
-main section:nth-child(6){
-    height: 428px;
-    background-color: rgb(134, 212, 236);
 }
 
 footer{
