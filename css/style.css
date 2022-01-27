@@ -439,9 +439,22 @@ section.faq .row:hover .arrow-down i{
 footer{
     background-color: black;
     color: white;
+    padding-top: 76px;
+    padding-bottom: 33px;
 }
 
-footer .col{
+footer .menus .col{
     width: calc(100% / 5);
-    border: 1px solid red;
+}
+
+footer .menus .col h4{
+    padding-bottom: 20px;
+}
+
+footer .menus .col nav ul li{
+    list-style-type: none;
+}
+
+footer .menus .col nav ul li:not(:last-child){
+    padding-bottom: 8px;
 }
