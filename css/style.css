@@ -93,6 +93,10 @@ p.p-bold{
     color: grey;
 }
 
+.clr-purple{
+    color: #61082b;
+}
+
 /* BUTTONS */
 
 .btn{
@@ -332,6 +336,18 @@ section.reviews{
     margin-bottom: 97px;
 }
 
+section.reviews .reviews-cta{
+    background-color: #b4d0e7;
+}
+
+section.reviews .reviews-cta .container{
+    padding: 98px 0;
+}
+
+section.reviews .reviews-cta button{
+    width: 19rem;
+}
+
 /* FAQ */
 
 section.faq{
@@ -349,11 +365,6 @@ section.faq{
 
 header, main, footer{
     width: 100%;
-}
-
-main section:nth-child(5){
-    height: 764px;
-    background-color: rgb(150, 241, 141);
 }
 
 main section:nth-child(6){
