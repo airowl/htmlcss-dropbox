@@ -360,15 +360,15 @@ section.reviews .reviews-content .col-side .row .box{
 }
 
 section.reviews .reviews-content .col-side .row .box img{
-    width: 75%;
+    width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* 
 section.reviews .reviews-content .col-side .row .box .client-img path{
-    fill: #fff; /* DUBBIO */
-}
+    fill: #fff; 
+} */
 
 #designit{
     background-color: #a2d39b;
