@@ -434,22 +434,14 @@ section.faq .row:hover .arrow-down i{
     transform: rotate(180deg);
 }
 
-
-
 /* FOOTER */
 
-
-
-
-
-
-/* DA ELIMINARE -->*/
-
-header, main, footer{
-    width: 100%;
+footer{
+    background-color: black;
+    color: white;
 }
 
-footer{
-    height: 364px;
-    background-color: crimson;
+footer .col{
+    width: calc(100% / 5);
+    border: 1px solid red;
 }
