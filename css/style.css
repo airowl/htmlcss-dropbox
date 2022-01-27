@@ -350,16 +350,13 @@ section.reviews .reviews-content .col-side{
 }
 
 section.reviews .reviews-content .col-side .row{
-    border: 1px solid red;
     width: 100%;
     height: 50%;
 }
 
 section.reviews .reviews-content .col-side .row .box{
-    background-color: blue;
     width: 50%;
     height: 100%;
-    border: 1px solid red;
 }
 
 section.reviews .reviews-content .col-side .row .box img{
@@ -370,7 +367,39 @@ section.reviews .reviews-content .col-side .row .box img{
 }
 
 section.reviews .reviews-content .col-side .row .box .client-img path{
-    fill: white; /* DUBBIO */
+    fill: #fff; /* DUBBIO */
+}
+
+#designit{
+    background-color: #a2d39b;
+}
+
+#asu{
+    background-color: #61082b;
+}
+
+#uf{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#wbr{
+    background-color: #ff1c1c;
+}
+
+#hearst{
+    background-color: #b4d0e7;
+}
+
+#lp{
+    background-color: #0d2481;
+}
+
+#cco{
+    background-color: #ffd830;
 }
 
 section.reviews .reviews-content .col-middle{
