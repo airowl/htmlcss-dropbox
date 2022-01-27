@@ -354,10 +354,24 @@ section.reviews .reviews-content .col-side .row{
 
 section.reviews .reviews-content .col-middle{
     width: 40vw;
-    height: 100px;
+    padding: 37px;
     border: 1px solid red;
 }
 
+section.reviews .reviews-content .col-middle img{  
+    width: 20%;
+}
+
+section.reviews .reviews-content .col-middle hr{
+    width: 8%;
+    color: lightgrey;
+    margin-top: 24px;
+    margin-bottom: 38px;
+}
+
+section.reviews .reviews-content .col-middle p{
+    margin-bottom: 40px;
+}
 
 section.reviews .reviews-cta{
     background-color: #b4d0e7;
